@@ -3,6 +3,7 @@
 //  Quiz
 //
 //  Created by Hunter Major on 1/23/19.
+//  High Point University
 //  Copyright © 2019 Hunter Major. All rights reserved.
 //
 
@@ -15,12 +16,22 @@ class ViewController: UIViewController {
     let questions: [String] = [
         "What is 7+7?",
         "What is the capital of Vermont?",
-        "What is cognac made from?"
+        "What is cognac made from?",
+        "Is water wet?",
+        "Is a hotdog a sandwich?",
+        "How can a man go eight days without sleep?",
+        "How do you handcuff a one-armed man?",
+        "Who has the most Twitter followers?"
     ]
     let answers: [String] = [
         "14",
         "Montpelier",
-        "Grapes"
+        "Grapes",
+        "Yes",
+        "No",
+        "He sleeps during the night",
+        "You don't",
+        "Katy Perry"
     ]
     var currentQuestionIndex: Int = 0
 
